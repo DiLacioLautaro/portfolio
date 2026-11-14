@@ -472,7 +472,7 @@ html:not(.js) .typing{display:none}
 .tour-copy p.txt{color:var(--muted);font-size:1.02rem;max-width:44ch}
 .tour-foot{display:flex;align-items:center;gap:10px;padding:12px clamp(16px,2.4vw,28px);border-top:1px solid var(--line)}
 .tour-foot .count{min-width:7ch;text-align:center;font-family:var(--mono);font-size:.78rem;color:var(--muted)}
-.rbtn{flex:none;display:inline-grid;place-items:center;width:44px;height:44px;border-radius:50%;border:1px solid var(--line-2);transition:border-color .2s,color .2s,transform .2s var(--ease)}
+.rbtn{flex:none;display:inline-grid;place-items:center;width:44px;min-width:44px;height:44px;border-radius:50%;border:1px solid var(--line-2);transition:border-color .2s,color .2s,transform .2s var(--ease)}
 .rbtn:hover{border-color:var(--accent);color:var(--accent);transform:scale(1.06)}
 .rbtn.flip .ic{transform:rotate(180deg)}
 .tour-toggle{margin-left:auto}
@@ -1572,7 +1572,7 @@ html:not(.js) .copy{display:none}
           <p class="xp-when"><b>jul 2025 – nov 2026</b><span>SWS Services</span><span>Remoto</span></p>
           <div class="xp-body">
             <h4>Full Stack Developer <span>· SWS Services</span></h4>
-            <p class="txt">ERP web y app móvil para distribuidoras de agua y soda. Desarrollé el COT y remito electrónico de ARBA, el módulo de percepciones y la liquidación de camioneros y repartidores, hoy en producción; reduje 72% la descarga de la hoja de ruta de la app (3,3 s a 0,9 s, medido en laboratorio) reescribiendo vistas e índices de SQL Server.</p>
+            <p class="txt">ERP web y app móvil para distribuidoras de agua y soda. Desarrollé el COT y remito electrónico de ARBA, el módulo de percepciones, la liquidación de camioneros y repartidores y la gestión de envases en préstamo, hoy en producción; reduje 72% la descarga de la hoja de ruta de la app (3,3 s a 0,9 s, medido en laboratorio) reescribiendo vistas e índices de SQL Server.</p>
             <ul class="chips"><li class="chip">C#</li><li class="chip">.NET Framework 4.8</li><li class="chip">ASP.NET MVC / Razor</li><li class="chip">Entity Framework</li><li class="chip">SQL Server</li><li class="chip">AngularJS</li><li class="chip">React / TypeScript</li></ul>
           </div>
         </article>
@@ -1883,7 +1883,7 @@ html:not(.js) .copy{display:none}
          se espera a las fuentes para medir con el alto definitivo de la portada. */
       var arm=function(){
         if(armed)return;armed=true;
-        watch([out],function(el,vis,io){if(vis&&!started){started=true;io.disconnect();setTimeout(type,Date.now()-t0<1500?900:0)}},{threshold:.9});
+        watch([term],function(el,vis,io){if(vis&&!started){started=true;io.disconnect();setTimeout(type,Date.now()-t0<1500?900:0)}},{threshold:.15});
       };
       if(d.fonts&&d.fonts.ready&&d.fonts.ready.then){d.fonts.ready.then(arm,arm);setTimeout(arm,2500)}else arm();
     })();
