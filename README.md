@@ -1,6 +1,6 @@
 # Portfolio de Lautaro Di Lacio
 
-Sitio personal de **Lautaro Di Lacio**, Desarrollador Full Stack .NET con +3,5 años en desarrollo .NET (C#, .NET 8, SQL Server, Angular, TypeScript).
+Sitio personal de **Lautaro Di Lacio**, Desarrollador Full Stack .NET con +5 años en IT (C#, .NET 8, SQL Server, Angular, TypeScript).
 
 **Ver el sitio:** https://dilaciolautaro.github.io/portfolio/
 
