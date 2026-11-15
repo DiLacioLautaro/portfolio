@@ -9,7 +9,7 @@ Sitio personal de **Lautaro Di Lacio**, Desarrollador Full Stack .NET con +3,5 a
 ## Qué hay en el sitio
 
 - **Experiencia:** SWS Services (ERP web y app móvil para distribuidoras de agua y soda), Baufest para Cencosud (retail) y Voolkia para Mercado Libre.
-- **Proyectos propios:** [SousChef](https://souschefvirtual.com), una plataforma en producción para reposteras con asistente de IA, y [Golden Classic](https://github.com/DiLacioLautaro/golden-classic-app), una plataforma de progreso físico y posing para culturismo clásico, en fase de pruebas.
+- **Proyectos propios:** [SousChef](https://souschefvirtual.com), una plataforma en producción para reposteras con asistente de IA, y [Golden Classic](https://github.com/DiLacioLautaro/golden-classic), una plataforma de progreso físico y posing para culturismo clásico, en fase de pruebas.
 - **Stack:** las tecnologías que manejo, filtrables por categoría y separadas en principales y complementarias.
 - **Contacto** y descarga del CV.
 
