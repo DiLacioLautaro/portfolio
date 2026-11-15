@@ -204,6 +204,7 @@ h1 span{display:block}
 /* Sello: especialidad + punto que late */
 .t-seal{grid-area:seal;display:flex;flex-direction:column;justify-content:space-between;gap:14px;padding:clamp(16px,1.7vw,22px)}
 .seal-big{font-size:clamp(1.15rem,1.6vw,1.45rem);line-height:1.12;letter-spacing:-.035em;font-weight:600;text-wrap:balance}
+.seal-sub{margin-top:8px;font-family:var(--mono);font-size:.72rem;line-height:1.55;letter-spacing:.02em;color:var(--muted);text-wrap:pretty}
 
 /* Reloj GMT-3: dígitos tabulares para que no bailen */
 .t-clock{grid-area:clock;display:flex;flex-direction:column;justify-content:space-between;gap:10px;padding:clamp(16px,1.7vw,22px)}
@@ -967,7 +968,10 @@ html:not(.js) .copy{display:none}
 
     <div class="tile t-seal">
       <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Especialidad</p>
-      <p class="seal-big">Backend .NET &amp; SQL Server</p><!-- sello: texto editable -->
+      <div>
+        <p class="seal-big">Backend .NET &amp; SQL Server</p><!-- sello: texto editable -->
+        <p class="seal-sub">C# · T-SQL · TypeScript · JavaScript · Angular · React · Vue.js</p>
+      </div>
     </div>
 
     <div class="tile clip t-term" id="term">
